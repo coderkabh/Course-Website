@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>
         Kanishk Bharadwaj
     </title>
 </head>
 <body>
 
+<section id="head-section">
+    <div class="header-container">
+        <img src="assets/images/logo.png" class="logo">
+        <div class="header-text">
+            <h1>
+                FirstName LastName
+            </h1>
 
+            <span class="square"></span>
 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur at cumque doloribus enim fuga odio quibusdam suscipit vero voluptatibus! Architecto asperiores consequatur doloremque error id molestiae nobis repellendus, vero.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur at cumque doloribus enim fuga odio quibusdam suscipit vero voluptatibus! Architecto asperiores consequatur doloremque error id molestiae nobis repellendus, vero.
+
+            </p>
+
+            <button class="common-button"> Read More</button>
+            <div class="square-style">
+                <span class="style-1"></span><br>
+                <span class="style-2"></span><br>
+                <span class="style-3"></span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<nav id="side-nav">
+    <ul>
+        <li><a href="#"> Home </a></li>
+        <li><a href="#"> Skills </a></li>
+        <li><a href="#"> Projects </a></li>
+        <li><a href="#"> Know Me </a></li>
+        <li><a href="#"> Contact </a></li>
+
+    </ul>
+</nav>
+
+<img src="assets/images/menu.png" id = "nav-trigger">
+<script>
+    var menuBtn = document.getElementById("nav-trigger");
+    var sideNav = document.getElementById("side-nav");
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function () {
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+        }
+    }
+</script>
 </body>
 </html>
