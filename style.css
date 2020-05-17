@@ -208,4 +208,22 @@ nav ul li a {
 }
 
 /*Feature section completed*/
+/*courses*/
 
+#courses{
+    padding: 100px 0;
+}
+
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-right-col{
+    flex-basis: 50%;
+}
+
+.course-right-col img{
+    width: 100%;
+}
