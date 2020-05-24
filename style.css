@@ -227,3 +227,7 @@ nav ul li a {
 .course-right-col img{
     width: 100%;
 }
+.course-left-col{
+    flex-basis: 50%;
+
+}
