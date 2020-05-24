@@ -22,6 +22,11 @@
     margin-top: 120px;
 }
 
+.header-text h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 h1{
     font-size: 28px;
     margin-bottom: 20px;
@@ -96,7 +101,7 @@ nav ul li{
     margin: 50px 20px;
     text-align: center;
     /*My tag below */
-    margin: 60px 0 ;
+    /*margin: 60px 0 ;*/
 }
 
 /*My property below */
@@ -230,3 +235,13 @@ nav ul li a {
 .course-left-col{
     flex-basis: 50%;
 }
+
+.course-text{
+    max-width: 350px;
+}
+
+.course-text button{
+    margin: 30px 0 ;
+}
+
+/*courses section completed*/
