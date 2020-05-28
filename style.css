@@ -245,3 +245,21 @@ nav ul li a {
 }
 
 /*courses section completed*/
+
+
+/*contact*/
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-right-col, .contact-left-col{
+    flex-basis: 50%;
+
+}
+.contact-right-col img{
+    width: 100%;
+
+}
