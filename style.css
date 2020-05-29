@@ -34,7 +34,7 @@ h1{
     margin: 15px 0;
 }
 .common-button{
-    padding: 14px 34px;
+    padding: 18px 40px;
     outline: none;
     background: transparent;
     border: 2px solid #f67c92;
@@ -119,7 +119,6 @@ nav ul li a {
     width: 50px;
     cursor: pointer;
 }
-
 /*about*/
 
 #about{
@@ -386,4 +385,58 @@ hr{
         font-size: 25px;
     }
 
+    #nav-trigger{
+        right: 50px;
+        width: 40px;
+    }
+
+    .common-button{
+        padding: 10px 16px;
+
+    }
+
+    .social-icons img{
+        width: 14px;
+        margin: 15px auto;
+    }
+
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .course-right-col, .course-left-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+
+    .contact-right-col, .contact-left-col{
+        flex-basis: 100%;
+    }
+
+    .contact-right-col{
+        margin-top: 50px;
+    }
+
+    .footer-left-col, .footer-right-col{
+        flex-basis: 100%;
+    }
+
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+
+    }
 }

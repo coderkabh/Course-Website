@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     <link rel="stylesheet" href="style.css">
-<!--    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">-->
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
     <title>
         Kanishk Bharadwaj
@@ -42,11 +41,11 @@
 
 <nav id="side-nav">
     <ul>
-        <li><a href="#"> Home </a></li>
-        <li><a href="#"> Skills </a></li>
-        <li><a href="#"> Projects </a></li>
-        <li><a href="#"> Know Me </a></li>
-        <li><a href="#"> Contact </a></li>
+        <li><a href="#head-section"> Home </a></li>
+        <li><a href="#about"> About </a></li>
+        <li><a href="#features"> Features </a></li>
+        <li><a href="#courses"> Offer </a></li>
+        <li><a href="#contact"> Contact </a></li>
 
     </ul>
 </nav>
@@ -245,6 +244,12 @@
             sideNav.style.right = "-250px";
         }
     }
+    var scroll = new SmoothScroll('a[href*="#"]',{
+        speed: 500,
+        speedAsDuration: true
+    });
+
+
 </script>
 </body>
 </html>
